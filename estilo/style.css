@@ -223,14 +223,13 @@ RESPONSIVO USANDO @MEDIA QUERRY
         margin-top: -20px;
     }
 
-}
-
-@media only screen and (max-width: 500px) {
-       
+    main
     h1 {
         font-family: var(--font-android);
+        color: red;
     }
     h2 {
         font-family: var(--font-android);
     }
 }
+
