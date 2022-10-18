@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 @font-face {
     font-family: 'Android';
     src: url(/fontes/idroid.otf);
@@ -23,6 +25,7 @@
     --font-padrao: arial, verdana, helvetica, sans-serif;
     --font-destaque: 'Bebas Neue', cursive;
     --font-android: 'Android', cursive;
+    --font-nav: 'Kanit', sans-serif;
 }
 
 
@@ -225,11 +228,10 @@ RESPONSIVO USANDO @MEDIA QUERRY
 
     main
     h1 {
-        font-family: var(--font-android);
-        color: red;
+        font-family: var(--font-nav)
     }
     h2 {
-        font-family: var(--font-android);
+        font-family: var(--font-nav);
     }
 }
 
