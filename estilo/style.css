@@ -222,7 +222,11 @@ RESPONSIVO USANDO @MEDIA QUERRY
     nav {
         margin-top: -20px;
     }
-   
+
+}
+
+@media only screen and (max-width: 500px) {
+       
     h1 {
         font-family: var(--font-android);
     }
