@@ -225,13 +225,5 @@ RESPONSIVO USANDO @MEDIA QUERRY
     nav {
         margin-top: -20px;
     }
-
-    main
-    h1 {
-        font-family: var(--font-nav)
-    }
-    h2 {
-        font-family: var(--font-nav);
-    }
 }
 
